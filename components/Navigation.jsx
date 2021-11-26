@@ -72,6 +72,20 @@ const Navigation = () => {
                 <NavItem>
                   <NavLink
                     rel="noopener"
+                    aria-label="Gmail"
+                    className="nav-link-icon"
+                    href="mailto:thakoorchandan@gmail.com"
+                    target="_blank"
+                  >
+                    <i className="fa fa-google" />
+                    <span className="nav-link-inner--text d-lg-none ml-2">
+                      Linkedin
+                    </span>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    rel="noopener"
                     aria-label="Facebook"
                     className="nav-link-icon"
                     href={socialLinks.facebook}

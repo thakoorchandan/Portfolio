@@ -1,17 +1,14 @@
 import emoji from "react-easy-emoji";
 import hilton_image from "./public/images/Hilton-Hotels.png";
 import strawberrynet from "./public/images/Strawberrynet.png";
-import { Document, page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-// const resumeLnk = ""
 
 export const greetings = {
-  name: "Thakoor Chandan",
-  title: "Hi all, I'm Thakoor Chandan",
+  name: "Pradeep",
+  title: "Hi all, I'm Pradeep",
   description:
     "I love building websites, A novice MERN stack developer, passionate about developing user-friendly and creative websites.",
-  resumeLink: "",
+  resumeLink:
+    "https://drive.google.com/file/d/1ksyzvyWheHgbZuw13_aTTGt6JaXALw9h/view?usp=sharing",
 };
 
 export const openSource = {
@@ -26,6 +23,7 @@ export const socialLinks = {
   twitter: "https://twitter.com/thakoor_chandan",
   github: "https://github.com/thakoorchandan",
   linkedin: "https://www.linkedin.com/in/thakoor-chandan-4a78b5106/",
+  // gmail: "thakoorchandan@gmail.com",
 };
 
 export const skillsSection = {
@@ -35,9 +33,9 @@ export const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡  Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as MongoDB/ AWS / Digital Ocean"
     ),
   ],
 

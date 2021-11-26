@@ -25,13 +25,13 @@ export default function Home({ githubProfileData }) {
           image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
           url: "https://developer-portfolio-1hanzla100.vercel.app",
           keywords: [
-            "Hanzla",
-            "Hanzla Tauqeer",
-            "@1hanzla100",
-            "1hanzla100",
+            "Thakoor",
+            "Thakoor Chandan",
+            "@thakoorchandan",
+            "thakoorchandan",
             "Portfolio",
-            "Hanzla Portfolio ",
-            "Hanzla Tauqeer Portfolio",
+            "Thakoor Chandan Portfolio ",
+            "Thakoor Chandan Portfolio",
             "web developer",
             "full stack",
             "full stack web developer",
@@ -50,7 +50,7 @@ export default function Home({ githubProfileData }) {
         }}
       />
       <Navigation />
-      <Greetings />
+      <Greetings prof={githubProfileData} />
       <Skills />
       <Proficiency />
       <Education />

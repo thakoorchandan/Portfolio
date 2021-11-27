@@ -1,20 +1,70 @@
 import dynamic from "next/dynamic";
 import PropTypes from "prop-types";
-const Navigation = dynamic(() => import("../components/Navigation"));
+import { useRef } from "react";
+import { openSource } from "../portfolio";
+import SEO from "../components/SEO";
+import React, { useState, useEffect } from "react";
+import { greetings } from "../portfolio";
+import Headroom from "headroom.js";
+import {
+  UncontrolledCollapse,
+  NavbarBrand,
+  Navbar,
+  NavItem,
+  Nav,
+  Container,
+  Row,
+  Col,
+  Button,
+} from "reactstrap";
+
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
 const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Education = dynamic(() => import("../containers/Education"));
-// const Experience = dynamic(() => import("../containers/Experience"));
 const Projects = dynamic(() => import("../containers/Projects"));
-// const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() =>
   import("../components/GithubProfileCard")
 );
-import { openSource } from "../portfolio";
-import SEO from "../components/SEO";
+
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
 export default function Home({ githubProfileData }) {
+  const [collapseClasses, setCollapseClasses] = useState("");
+  const onExiting = () => setCollapseClasses("collapsing-out");
+
+  const onExited = () => setCollapseClasses("");
+
+  useEffect(() => {
+    let headroom = new Headroom(document.getElementById("navbar-main"));
+    headroom.init();
+  });
+  const home = useRef(null);
+  const skills = useRef(null);
+  const education = useRef(null);
+  const project = useRef(null);
+  const contact = useRef(null);
+
+  const homeScroll = () => {
+    scrollToRef(home);
+  };
+
+  const skillScroll = () => {
+    scrollToRef(skills);
+  };
+
+  const educationScroll = () => {
+    scrollToRef(education);
+  };
+
+  const projectScroll = () => {
+    scrollToRef(project);
+  };
+
+  const contactScroll = () => {
+    scrollToRef(contact);
+  };
+
   return (
     <div>
       <SEO
@@ -49,15 +99,90 @@ export default function Home({ githubProfileData }) {
           ],
         }}
       />
-      <Navigation />
-      <Greetings prof={githubProfileData} />
-      <Skills />
-      <Proficiency />
-      <Education />
-      {/* <Experience /> */}
-      {/* <Feedbacks /> */}
-      <Projects />
-      <GithubProfileCard prof={githubProfileData} />
+
+      <header className="header-global">
+        <div ref={home}>
+          <Navbar
+            ref={home}
+            className="navbar-main navbar-transparent navbar-light headroom"
+            expand="lg"
+            id="navbar-main"
+          >
+            <Container>
+              <NavbarBrand href="/" className="mr-lg-5">
+                <h2 className="text-white" id="nav-title">
+                  {greetings.name}
+                </h2>
+              </NavbarBrand>
+              <button
+                className="navbar-toggler"
+                aria-label="navbar_toggle"
+                id="navbar_global"
+              >
+                <span className="navbar-toggler-icon" />
+              </button>
+              <UncontrolledCollapse
+                toggler="#navbar_global"
+                navbar
+                className={collapseClasses}
+                onExiting={onExiting}
+                onExited={onExited}
+              >
+                <div className="navbar-collapse-header">
+                  <Row>
+                    <Col className="collapse-brand" xs="6">
+                      <h3 className="text-black" id="nav-title">
+                        {greetings.name}
+                      </h3>
+                    </Col>
+                    <Col className="collapse-close" xs="6">
+                      <button className="navbar-toggler" id="navbar_global">
+                        <span />
+                        <span />
+                      </button>
+                    </Col>
+                  </Row>
+                </div>
+                <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                  <NavItem>
+                    <Button onClick={homeScroll}>Home</Button>
+                  </NavItem>
+                  <NavItem>
+                    <Button onClick={skillScroll}>Skills</Button>
+                  </NavItem>
+                  <NavItem>
+                    <Button onClick={educationScroll}>Education</Button>
+                  </NavItem>
+                  <NavItem>
+                    <Button onClick={projectScroll}>Projects</Button>
+                  </NavItem>
+                  <NavItem>
+                    <Button onClick={contactScroll}>Contact</Button>
+                  </NavItem>
+                </Nav>
+              </UncontrolledCollapse>
+            </Container>
+          </Navbar>
+        </div>
+      </header>
+      <div>
+        <Greetings prof={githubProfileData} />
+      </div>
+      <div ref={skills}>
+        <Skills />
+      </div>
+      <div ref={education}>
+        <Proficiency />
+      </div>
+      <div ref={education}>
+        <Education />
+      </div>
+      <div ref={project}>
+        <Projects />
+      </div>
+      <div ref={contact}>
+        <GithubProfileCard prof={githubProfileData} />
+      </div>
     </div>
   );
 }

@@ -5,6 +5,7 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 import { Fade } from "react-reveal";
 
 const ProjectsCard = ({ data }) => {
+  console.log(data.image.src);
   return (
     <Col lg="6">
       <Fade left duration={1000} distance="40px">

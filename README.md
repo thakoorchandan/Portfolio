@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/thakoorchandan/Portfolio/blob/master/picture.PNG"></img>
+    <img src="https://github.com/thakoorchandan/Portfolio/blob/main/public/images/portfolio.png"></img>
   </kbd>
 </p>
 

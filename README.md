@@ -106,7 +106,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 ## Author
 
-👤 **Hanzla Tauqeer**
+👤 **Thakoor Chandan**
 
 - Twitter: [@thakoorchandan](https://twitter.com/thakoor_chandan)
 - Github: [@thakoorchandan](https://github.com/thakoorchandan)

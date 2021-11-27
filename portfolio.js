@@ -3,8 +3,8 @@ import hilton_image from "./public/images/Hilton-Hotels.png";
 import strawberrynet from "./public/images/Strawberrynet.png";
 
 export const greetings = {
-  name: "Pradeep",
-  title: "Hi all, I'm Pradeep",
+  name: "Thakoor Chandan",
+  title: "Hi all, I'm Thakoor Chandan",
   description:
     "I love building websites, A novice MERN stack developer, passionate about developing user-friendly and creative websites.",
   resumeLink:
@@ -23,7 +23,6 @@ export const socialLinks = {
   twitter: "https://twitter.com/thakoor_chandan",
   github: "https://github.com/thakoorchandan",
   linkedin: "https://www.linkedin.com/in/thakoor-chandan-4a78b5106/",
-  // gmail: "thakoorchandan@gmail.com",
 };
 
 export const skillsSection = {

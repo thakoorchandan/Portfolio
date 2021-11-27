@@ -79,7 +79,7 @@ const Navigation = () => {
                   >
                     <i className="fa fa-google" />
                     <span className="nav-link-inner--text d-lg-none ml-2">
-                      Linkedin
+                      Gmail
                     </span>
                   </NavLink>
                 </NavItem>

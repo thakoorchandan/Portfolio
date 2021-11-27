@@ -108,10 +108,9 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 👤 **Hanzla Tauqeer**
 
-- Website: https://hanzla.netlify.app
-- Twitter: [@thakoor_chandan](https://twitter.com/thakoor_chandan)
+- Twitter: [@thakoorchandan](https://twitter.com/thakoor_chandan)
 - Github: [@thakoorchandan](https://github.com/thakoorchandan)
-- LinkedIn: [@thakoor-chandan](https://www.linkedin.com/in/thakoor-chandan-4a78b5106/)
+- LinkedIn: [@thakoorchandan](https://www.linkedin.com/in/thakoor-chandan-4a78b5106/)
 
 ## Show your support
 

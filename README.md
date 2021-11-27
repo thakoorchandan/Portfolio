@@ -1,33 +1,33 @@
-<h1 align="center">Welcome to developer-portfolio 👋</h1>
-<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
+<h1 align="center">Welcome to Portfolio 👋</h1>
+<a href="https://github.com/thakoorchandan/Portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/thakoorchandan/Portfolio"></a><a href="https://github.com/thakoorchandan/Portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/thakoorchandan/Portfolio"></a><a href="https://github.com/thakoorchandan/Portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/thakoorchandan/Portfolio"></a> <a href="https://github.com/thakoorchandan/Portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/thakoorchandan/Portfolio"></a>
 
 ## Software Developer Portfolio Template built with Next.js bootstrap that helps you showcase your work and skills as a software developer.
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
+    <img src="https://github.com/thakoorchandan/Portfolio/blob/master/picture.PNG"></img>
   </kbd>
 </p>
 
-### To view a live example, **[click here](https://developer-portfolio.1hanzla100.vercel.app/)**.
+### To view a live example, **[click here](https://thakoorchandan-portfolio-thakoorchandan.vercel.app/)**.
 
 Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
+But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/thakoorchandan/Portfolio/issues).
 
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/thakoorchandan/Portfolio/pulls).
 
 ## Table of Contents
 
--   [Sections](#sections)
--   [Getting Started](#getting-started)
--   [How to Use](#how-to-use)
--   [Linking portfolio to Github](#linking-portfolio-to-github)
--   [Change and Customize](#change-and-customize-every-section-according-to-your-need)
--   [Technologies Used](#technologies-used)
--   [Illustrations](#illustrations)
--   [For the Future](#for-the-future)
--   [Contributors](#project-maintainers)
+- [Sections](#sections)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
+- [Linking portfolio to Github](#linking-portfolio-to-github)
+- [Change and Customize](#change-and-customize-every-section-according-to-your-need)
+- [Technologies Used](#technologies-used)
+- [Illustrations](#illustrations)
+- [For the Future](#for-the-future)
+- [Contributors](#project-maintainers)
 
 ## Sections
 
@@ -58,10 +58,10 @@ From your command line, clone and run developer-portolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/1hanzla100/developer-portfolio.git
+$ git clone https://github.com/thakoorchandan/Portfolio.git
 
 # Go into the repository
-$ cd developer-portfolio
+$ cd Portfolio
 
 # Install dependencies
 $ yarn
@@ -83,42 +83,42 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 ## Technologies Used
 
--   [Next.js](https://nextjs.org/)
--   [axios](https://www.npmjs.com/package/axios)
--   [reactstrap](https://reactstrap.github.io/)
--   [react-reveal](https://www.react-reveal.com/)
--   [react-lottie](https://www.npmjs.com/package/react-lottie)
--   [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
--   [react-headroom](https://github.com/KyleAMathews/react-headroom)
--   [color-thief](https://github.com/lokesh/color-thief)
+- [Next.js](https://nextjs.org/)
+- [axios](https://www.npmjs.com/package/axios)
+- [reactstrap](https://reactstrap.github.io/)
+- [react-reveal](https://www.react-reveal.com/)
+- [react-lottie](https://www.npmjs.com/package/react-lottie)
+- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
+- [react-headroom](https://github.com/KyleAMathews/react-headroom)
+- [color-thief](https://github.com/lokesh/color-thief)
 
 ## Illustrations
 
--   [Lottie File Source](https://lottiefiles.com)
+- [Lottie File Source](https://lottiefiles.com)
 
 ## For the Future
 
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/thakoorchandan/Portfolio/pulls).
 
--   Enable Dark Mode
+- Enable Dark Mode
 
--   Add More Sections
+- Add More Sections
 
 ## Author
 
 👤 **Hanzla Tauqeer**
 
--   Website: https://hanzla.netlify.app
--   Twitter: [@1hanzla100](https://twitter.com/1hanzla100)
--   Github: [@1hanzla100](https://github.com/1hanzla100)
--   LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
+- Website: https://hanzla.netlify.app
+- Twitter: [@thakoor_chandan](https://twitter.com/thakoor_chandan)
+- Github: [@thakoorchandan](https://github.com/thakoorchandan)
+- LinkedIn: [@thakoor-chandan](https://www.linkedin.com/in/thakoor-chandan-4a78b5106/)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
--   Read cvc
-    validate regex
-    mx records
-    tegex before @
-    domain records
+- Read cvc
+  validate regex
+  mx records
+  tegex before @
+  domain records

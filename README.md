@@ -9,7 +9,7 @@
   </kbd>
 </p>
 
-### To view a live example, **[click here](https://thakoorchandan-portfolio.vercel.app/)**.
+### To view a live example, **[click here](https://portfolio-cu5ozjqe1-thakoorchandan.vercel.app/)**.
 
 Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 

@@ -22,7 +22,11 @@ const GithubProfileCard = ({ prof }) => {
               <h2 className="text-white">
                 Reach Out to me on{" "}
                 <a
-                  style={{ color: "black" }}
+                  style={{
+                    color: "black",
+                    fontWeight: "500",
+                    fontSize: "2.5rem",
+                  }}
                   href="mailto:thakoorchandan@gmail.com"
                 >
                   thakoorchandan@gmail.com

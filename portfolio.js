@@ -6,7 +6,7 @@ export const greetings = {
   name: "Thakoor Chandan",
   title: "Hi all, I'm Thakoor Chandan",
   description:
-    "I love building websites, A novice MERN stack developer, passionate about developing user-friendly and creative websites.",
+    "Software Engineer who loves to transform ideas into reality using code and developing web applications using the latest front-end and UI/UX technologies and full-fledged APIs. Motivated designer and developer with experience creating custom websites with ReactJs, Node, Express, Mongo, and React JS.",
   resumeLink:
     "https://drive.google.com/file/d/1ksyzvyWheHgbZuw13_aTTGt6JaXALw9h/view?usp=sharing",
 };
@@ -14,8 +14,6 @@ export const greetings = {
 export const openSource = {
   githubUserName: "thakoorchandan",
 };
-
-export const contact = {};
 
 export const socialLinks = {
   facebook: "https://www.facebook.com/cherrychandantakur",
@@ -130,64 +128,41 @@ export const educationInfo = [
     schoolName: "MASAI SCHOOL",
     subHeader: "Full Stack Web Development",
     duration: "April 2021 - December 2021",
-    // desc: "",
-    // descBullets: [
-    //   "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-    //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    desc: "Pursued Full-Stack Web Development Bootcamp.",
+    descBullets: [
+      "MERN Stack",
+      "Data Structures and Algorithms",
+      "Soft skills",
+      "Hackathons",
+    ],
   },
   {
     schoolName: "Vivekananda Institute of Tech and Sci",
     subHeader: "Computer Science and Engineering",
     duration: "August 2016 - December 2020",
-    //     desc: "Recieved Young Scientist Award in my first year",
-    //     descBullets: [
-    //       "I was the Class Representative",
-    //       "Actively participated in many workshops",
-    //     ],
+    desc: "Recieved Young Scientist Award in my first year",
+    descBullets: [
+      "Operating Systems",
+      "Database Management System",
+      "Basics of Programming",
+      "Software Engineering Basics",
+    ],
   },
-  {
-    schoolName: "TS Model School",
-    subHeader: "Intermediate",
-    duration: "September 2014 - April 2016",
-    //     desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //     descBullets: ["Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit"],
-  },
+  // {
+  //   schoolName: "TS Model School",
+  //   subHeader: "Intermediate",
+  //   duration: "September 2014 - April 2016",
+  //   //     desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+  //   //     descBullets: ["Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit"],
+  // },
 ];
-
-// export const experience = [
-//   {
-//     role: "Software Engineer",
-//     company: "Google",
-//     companylogo: "/img/icons/common/google.svg",
-//     date: "June 2018 – Present",
-//     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-//     descBullets: [
-//       "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//     ],
-//   },
-//   {
-//     role: "Front-End Developer",
-//     company: "Github",
-//     companylogo: "/img/icons/common/github.svg",
-//     date: "May 2017 – May 2018",
-//     desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-//   },
-//   {
-//     role: "Software Engineer Intern",
-//     company: "Airbnb",
-//     companylogo: "/img/icons/common/airbnbLogo.png",
-//     date: "Jan 2015 – Sep 2015",
-//     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-//   },
-// ];
 
 export const projects = [
   {
     name: "Strawberrynet.com",
     image: strawberrynet,
     desc: "An E-Commerce website which speciaizes in selling beauty products all over the globe. The website provides 800 brands and 33,000 products of different types of makeup, skincare, body care, fragrances and home scents.",
+    stack: ["HTML, ", "CSS, ", "Express.js,  ", "Node.js,  ", "MongoDb"],
     github: "https://github.com/akhiladepu/re-clone-strawberrynet",
     link: "https://strawberrynet-clone-frontend.vercel.app/",
   },
@@ -195,20 +170,14 @@ export const projects = [
     name: "Hilton-Hotels",
     image: hilton_image,
     desc: "Hilton Hotels & Resorts is Hilton's flagship brand and one of the largest hotel brands in the world. The brand is targeted at both business and leisure travelers with locations in major city centers around the world.",
+    stack: [
+      "React.js,  ",
+      "Material UI,  ",
+      "Express.js,  ",
+      "Node.js,  ",
+      "MongoDb",
+    ],
     github: "https://github.com/thakoorchandan/Hotels-by-Hilton",
     link: "https://hotels-by-hilton-44jhnnl0y-thakoorchandan.vercel.app/",
-  },
-];
-
-export const feedbacks = [
-  {
-    name: "Hassan Mehmood",
-    feedback:
-      "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
-  },
-  {
-    name: "Maheen Altaf",
-    feedback:
-      "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
   },
 ];

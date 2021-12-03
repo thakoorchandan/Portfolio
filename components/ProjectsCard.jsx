@@ -16,6 +16,8 @@ const ProjectsCard = ({ data }) => {
                 <h3>{data.name}</h3>
                 <img className="img-fluid" src={data.image.src} alt="image" />
                 <p className="description mt-3">{data.desc}</p>
+                <p style={{ fontWeight: "bold" }}>Tech Stack used:</p>
+                <p>{data.stack}</p>
                 {data.github ? (
                   <Button
                     className="btn-icon"

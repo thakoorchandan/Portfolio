@@ -7,7 +7,7 @@ import SocialLinks from "../components/SocialLinks";
 const GithubProfileCard = ({ prof }) => {
   return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
-      <Container className="">
+      <Container>
         <div className="p-2">
           <Row className="">
             <Col className="order-lg-2" lg="4">

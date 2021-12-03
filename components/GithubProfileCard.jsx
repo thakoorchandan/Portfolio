@@ -20,9 +20,9 @@ const GithubProfileCard = ({ prof }) => {
             </Col>
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">
-                Reach Out to me on
+                Reach Out to me on{" "}
                 <a
-                  style={{ color: "black", fontSize: "2.5rem" }}
+                  style={{ color: "black" }}
                   href="mailto:thakoorchandan@gmail.com"
                 >
                   thakoorchandan@gmail.com
@@ -40,9 +40,8 @@ const GithubProfileCard = ({ prof }) => {
                 </a>
               </h2>
               <p className="lead text-white mt-3">
-                Whether you want to get in touch, talk about a project
-                collaboration, or just say hi, I'd love to hear from you. Simply
-                send me an email.
+                DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR
+                ALL
               </p>
               <p className="text-white mt-3">{prof.bio}</p>
               <SocialLinks />

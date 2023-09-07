@@ -18107,18 +18107,13 @@ textarea[resize="horizontal"] {
 }
 
 .section-xl {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.section-lg {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .section-sm {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {

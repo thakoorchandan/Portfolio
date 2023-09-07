@@ -22,6 +22,7 @@ const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
 const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Education = dynamic(() => import("../containers/Education"));
+const Experience = dynamic(() => import("../containers/Experience"));
 const Projects = dynamic(() => import("../containers/Projects"));
 const GithubProfileCard = dynamic(() =>
   import("../components/GithubProfileCard")
@@ -42,6 +43,7 @@ export default function Home({ githubProfileData }) {
   const home = useRef(null);
   const skills = useRef(null);
   const education = useRef(null);
+  const experience = useRef(null);
   const project = useRef(null);
   const contact = useRef(null);
 
@@ -55,6 +57,10 @@ export default function Home({ githubProfileData }) {
 
   const educationScroll = () => {
     scrollToRef(education);
+  };
+
+  const experienceScroll = () => {
+    scrollToRef(experience);
   };
 
   const projectScroll = () => {
@@ -154,6 +160,9 @@ export default function Home({ githubProfileData }) {
                     <Button onClick={educationScroll}>Education</Button>
                   </NavItem>
                   <NavItem>
+                    <Button onClick={experienceScroll}>Experience</Button>
+                  </NavItem>
+                  <NavItem>
                     <Button onClick={projectScroll}>Projects</Button>
                   </NavItem>
                   <NavItem>
@@ -176,6 +185,9 @@ export default function Home({ githubProfileData }) {
       </div>
       <div ref={education}>
         <Education />
+      </div>
+      <div ref={experience}>
+        <Experience />
       </div>
       <div ref={project}>
         <Projects />

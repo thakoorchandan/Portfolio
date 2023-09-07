@@ -7,10 +7,10 @@
   "author": "Hanzla Tauqeer",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && next dev",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "lint": "SET NODE_OPTIONS=--openssl-legacy-provider && next lint"
   },
   "dependencies": {
     "@apollo/client": "^3.3.21",

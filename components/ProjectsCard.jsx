@@ -5,7 +5,7 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 import { Fade } from "react-reveal";
 
 const ProjectsCard = ({ data }) => {
-  console.log(data.image.src);
+  console.log(data?.image?.src);
   return (
     <Col lg="6">
       <Fade left duration={1000} distance="40px">
@@ -13,9 +13,16 @@ const ProjectsCard = ({ data }) => {
           <CardBody>
             <div className="d-flex px-3">
               <div className="pl-4">
-                <h3>{data.name}</h3>
-                <img className="img-fluid" src={data.image.src} alt="image" />
-                <p className="description mt-3">{data.desc}</p>
+                <h3>{data?.name}</h3>
+                <img className="img-fluid" src={data?.image?.src} alt="image" />
+                <p className="description mt-3">{data?.desc}</p>
+                <ul>
+                {data?.descBullets
+                  ? data.descBullets.map((desc) => {
+                      return <li key={desc}>{desc}</li>;
+                    })
+                  : null}
+              </ul>
                 <p style={{ fontWeight: "bold" }}>Tech Stack used:</p>
                 <p>{data.stack}</p>
                 {data.github ? (

@@ -2477,7 +2477,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary {
-  color: white;
+  color: black !important;
 }
 .btn-secondary:hover {
   color: #212529;
@@ -2498,11 +2498,11 @@ fieldset:disabled a.btn {
   background-color: #d6dae2;
   border-color: #cfd3dc;
 }
-.btn-secondary:not(:disabled):not(.disabled):active:focus,
+/* .btn-secondary:not(:disabled):not(.disabled):active:focus,
 .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0 rgba(212, 214, 216, 0.5);
-}
+} */
 
 .btn-success {
   color: #fff;
@@ -18116,6 +18116,11 @@ textarea[resize="horizontal"] {
 .section-xl {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.section-lg {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .section-sm {

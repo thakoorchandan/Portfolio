@@ -17,7 +17,7 @@ import Image from "next/image";
 
 const ExperienceCard = ({ data }) => {
 	return (
-		<Col lg="8">
+		<Col lg="15">
 			<Fade left duration={1000} distance="40px">
 				<Card
 					style={{ flex: 1 }}
@@ -30,9 +30,9 @@ const ExperienceCard = ({ data }) => {
 							</CardHeader>
 						)}
 					</Color>
-					<CardBody className="py-5">
+					<CardBody>
 						<div
-							className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
+							className="bg-white rounded-circle mb-3 experience-img-center img-fluid shadow-lg"
 							style={{ width: "100px", height: "100px" }}
 						>
 							<Image

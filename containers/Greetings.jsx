@@ -49,7 +49,9 @@ const Greetings = ({ prof }) => {
                       <span className="btn-inner--icon mr-1">
                         <i className="fa fa-file" />
                       </span>
-                      <span className="btn-inner--text">See My Resume</span>
+                      <span className="btn-inner--text">
+                       Resume
+                        </span>
                     </Button>
                   </div>
                 </Col>

@@ -7,7 +7,7 @@ export const greetings = {
   name: "Thakoor Chandan",
   title: "Hi all, I'm Thakoor Chandan",
   description:
-    "Software Engineer who loves to transform ideas into reality using code and developing web applications using the latest front-end and UI/UX technologies and full-fledged APIs. Motivated designer and developer with experience creating custom websites with ReactJs, Node, Express, Mongo, and React JS.",
+    "Dynamic Web Developer with a strong background in team collaboration, code analysis, debugging, bug fixing, coupled with a flair for feature development, research and API integration. Committed to crafting efficient and user-centric web applications, backed by a solid skill set in React, Redux, JavaScript and CSS. Seeking a challenging role to leverage skills to contribute to the creation of dynamic and efficient web applications while continuously learning and growing in a fast-paced environment.",
     resumeLink:
     'https://drive.google.com/file/d/1HtPuC2ViSEF5DcGN4eIHvveNL3L30R2_/view?usp=sharing',
 };

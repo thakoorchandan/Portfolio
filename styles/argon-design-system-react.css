@@ -14866,6 +14866,13 @@ button.section-darker:focus {
 
 .img-center {
   display: block;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-img-center {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
